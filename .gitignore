@@ -1,0 +1,108 @@
+# AI-Native Bash Shell - Git Ignore Rules
+
+# Compiled Object files
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.a
+*.la
+*.lo
+
+# Build artifacts - GNU Bash
+/bash-5.2/bash
+/bash-5.2/bashbug
+/bash-5.2/Makefile
+/bash-5.2/config.status
+/bash-5.2/config.log
+/bash-5.2/config.h
+/bash-5.2/config.cache
+/bash-5.2/stamp-h1
+/bash-5.2/pathnames.h
+/bash-5.2/version.h
+
+# AI module builds
+/bash-5.2/ai_core/*.o
+/bash-5.2/ai_core/security/*.o
+/bash-5.2/builtins/ai_commands.o
+/bash-5.2/builtins/*.def.o
+
+# Autotools generated files
+/bash-5.2/autom4te.cache/
+/bash-5.2/aclocal.m4
+/bash-5.2/configure
+/bash-5.2/Makefile.in
+
+# Test artifacts
+/tests/results/
+/tests/reports/
+/tests/*.log
+/tests/*.xml
+/tests/coverage/
+
+# Example output
+/examples/*.log
+/examples/*.output
+/examples/recordings/
+
+# Development tools
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Performance data
+/scripts/perf-*.log
+/scripts/benchmark-*.json
+/scripts/profile-*.data
+
+# Temporary files
+/tmp/
+*.tmp
+*.temp
+core
+core.*
+
+# Python AI dependencies (if installed locally)
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+ENV/
+
+# WebSocket debugging
+/bash-5.2/ai_core/*.pcap
+/bash-5.2/ai_core/debug-*.log
+
+# Security artifacts (never commit keys!)
+*.key
+*.pem
+*.cert
+secrets/
+.env
+
+# Memory database files
+*.db
+*.sqlite
+*.sqlite3
+memory_cache/
+
+# Documentation builds
+/docs/_build/
+/docs/.doctrees/
+
+# Package builds
+*.tar.gz
+*.deb
+*.rpm
+*.dmg
+*.pkg
+
+# Claude Code artifacts
+.claude/conversation_state.json
