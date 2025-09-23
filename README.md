@@ -79,11 +79,27 @@ Would you like me to explain any part of this output?
 
 ## 📚 Documentation
 
+### 📖 Core Documentation
 - **[Architecture Guide](docs/ARCHITECTURE.md)** - Technical design and implementation
 - **[Installation Guide](docs/INSTALLATION.md)** - Detailed setup instructions
-- **[User Guide](docs/USER_GUIDE.md)** - Command reference and examples
-- **[Developer Guide](docs/DEVELOPER_GUIDE.md)** - Contributing and development
-- **[Security Model](docs/SECURITY.md)** - Security architecture and best practices
+- **[User Guide](docs/USER_GUIDE.md)** - Command reference and usage examples
+- **[Developer Guide](docs/DEVELOPER_GUIDE.md)** - Contributing and development setup
+
+### 🔧 Technical References
+- **[API Reference](docs/API_REFERENCE.md)** - Complete function and structure documentation
+- **[Performance Guide](docs/PERFORMANCE.md)** - Optimization and tuning guide
+- **[Security Guide](docs/SECURITY.md)** - Security architecture and best practices
+- **[Troubleshooting Guide](docs/TROUBLESHOOTING.md)** - Problem solving and diagnostics
+
+### 📋 Quick Reference
+| Document | Purpose | Audience |
+|----------|---------|----------|
+| [User Guide](docs/USER_GUIDE.md) | Daily usage and commands | End Users |
+| [Developer Guide](docs/DEVELOPER_GUIDE.md) | Building and contributing | Developers |
+| [API Reference](docs/API_REFERENCE.md) | Function specifications | API Users |
+| [Security Guide](docs/SECURITY.md) | Security configuration | DevOps/Security |
+| [Performance Guide](docs/PERFORMANCE.md) | Optimization techniques | Performance Engineers |
+| [Troubleshooting Guide](docs/TROUBLESHOOTING.md) | Problem resolution | Support/Operations |
 
 ## 🛠️ Development Status
 
